@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "EB Garamond", Georgia, serif;
+    color: #33312c;
+    background: #f7f3ea;
+  }
+  
+  .parallax {
+    height: 100vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    background-attachment: fixed;
+  }
+  
+  .hero {
+    background-image: url("images/kusuriya_1.jpg");
+    background-color: #f7f3ea;
+  }
+  
+  .palace {
+    background-image: url("images/kusuriya_2.jpg");
+  }
+  
+  .poison {
+    background-image: url("images/kusuriya_3.jpg");
+    background-color: #0c1016;
+  }
+  
+  .resolve {
+    background-image: url("images/kusuriya_4.jpg");
+  }
